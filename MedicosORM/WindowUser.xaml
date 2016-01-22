@@ -1,0 +1,34 @@
+﻿<Window x:Class="MedicosORM.WindowUser"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MedicosORM"
+        mc:Ignorable="d"
+        Title="WindowUser" Height="481.531" Width="571.18">
+    <Grid>
+        <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Margin="10,315,0,0" VerticalAlignment="Top" Height="126" Width="543" SelectionChanged="dataGrid_SelectionChanged"/>
+        <Label x:Name="label" Content="NSS" HorizontalAlignment="Left" Margin="53,95,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="Nombre" HorizontalAlignment="Left" Margin="37,141,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="nss_tb" HorizontalAlignment="Left" Height="23" Margin="107,98,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="nmbre_tb" HorizontalAlignment="Left" Height="23" Margin="107,141,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label2" Content="Apellidos" HorizontalAlignment="Left" Margin="37,184,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="ap_tb" HorizontalAlignment="Left" Height="23" Margin="107,188,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label3" Content="DNI" HorizontalAlignment="Left" Margin="345,98,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="drcn_tb" HorizontalAlignment="Left" Height="23" Margin="107,232,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label_Copy" Content="Direccion" HorizontalAlignment="Left" Margin="36,232,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1_Copy" Content="Mail" HorizontalAlignment="Left" Margin="343,141,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="dni_tb" HorizontalAlignment="Left" Height="23" Margin="392,98,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="mail_tb" HorizontalAlignment="Left" Height="23" Margin="392,141,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label2_Copy" Content="Localidad" HorizontalAlignment="Left" Margin="316,185,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="locald_tb" HorizontalAlignment="Left" Height="23" Margin="392,188,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label3_Copy" Content="Telefono" HorizontalAlignment="Left" Margin="321,232,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="telf_tb" HorizontalAlignment="Left" Height="23" Margin="392,232,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="button" Content="Nuevo Usuario" HorizontalAlignment="Left" Margin="36,10,0,0" VerticalAlignment="Top" Width="104" Height="39" Click="button_Click"/>
+        <Button x:Name="button_Copy" Content="Guardar " HorizontalAlignment="Left" Margin="225,10,0,0" VerticalAlignment="Top" Width="104" Height="39" Click="button_Copy_Click"/>
+        <Button x:Name="button_Copy1" Content="Eliminar Usuario" HorizontalAlignment="Left" Margin="408,10,0,0" VerticalAlignment="Top" Width="104" Height="39" Click="button_Copy1_Click"/>
+        <TextBox x:Name="contra_tb" HorizontalAlignment="Left" Height="23" Margin="269,276,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label4" Content="Contraseña" HorizontalAlignment="Left" Margin="194,273,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
