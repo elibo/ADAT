@@ -18,6 +18,7 @@ namespace MedicosORM
         public string medico { get; set; }
         public string hora { get; set; }
         public string fecha { get; set; }
+		
     
         public virtual Medicos Medicos { get; set; }
         public virtual Usuarios Usuarios { get; set; }
