@@ -35,22 +35,41 @@ namespace MedicosORM
         private void button_Click(object sender, RoutedEventArgs e)
         {//nuevo usuario
             clear();
+            usuario = new Usuarios();
 
         }
 
         private void button_Copy_Click(object sender, RoutedEventArgs e)
         {//guardar usuario
-            usuario = new Usuarios();
-            usuario.NssUsuario = nss_tb.Text;
-            usuario.dni = dni_tb.Text;
-            usuario.nombre = nmbre_tb.Text;
-            usuario.apellidos = ap_tb.Text;
-            usuario.direccion = drcn_tb.Text;
-            usuario.localidad = locald_tb.Text;
-            usuario.telefono = telf_tb.Text;
-            usuario.email = mail_tb.Text;
-            usuario.contrasena = contra_tb.Text;
-            u.Create(usuario);
+            if (usuario != null)
+            {
+                if (usuario.NssUsuario != null)
+                {
+                    usuario.dni = dni_tb.Text;
+                    usuario.nombre = nmbre_tb.Text;
+                    usuario.apellidos = ap_tb.Text;
+                    usuario.direccion = drcn_tb.Text;
+                    usuario.localidad = locald_tb.Text;
+                    usuario.telefono = telf_tb.Text;
+                    usuario.email = mail_tb.Text;
+                    usuario.contrasena = contra_tb.Text;
+                    u.Update(usuario);
+                }
+            }
+            else
+            {
+                usuario.NssUsuario = nss_tb.Text;
+                usuario.dni = dni_tb.Text;
+                usuario.nombre = nmbre_tb.Text;
+                usuario.apellidos = ap_tb.Text;
+                usuario.direccion = drcn_tb.Text;
+                usuario.localidad = locald_tb.Text;
+                usuario.telefono = telf_tb.Text;
+                usuario.email = mail_tb.Text;
+                usuario.contrasena = contra_tb.Text;
+                u.Create(usuario);
+            }
+            
             list.Add(usuario);
             dataGrid.ItemsSource = list.ToArray();
 

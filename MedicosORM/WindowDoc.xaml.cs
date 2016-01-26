@@ -33,21 +33,36 @@ namespace MedicosORM
         private void button_Click(object sender, RoutedEventArgs e)
         {//nuevo
             clear();
+            medico = new Medicos();
         }
 
         private void button_Copy_Click(object sender, RoutedEventArgs e)
         {//guardar
-            medico = new Medicos();
-            medico.idMedico = id_tb.Text;
-            medico.servicio = serv_tb.Text;
-            medico.especialidad = esp_tb.Text;
-            medico.nombre = nmbre_tb.Text;
-            medico.apellidos = ap_tb.Text;
-            medico.telefono = telf_tb.Text;
-            medico.dni = dni_tb.Text;
-            d.Create(medico);
-            list.Add(medico);
-            dataGrid.ItemsSource = list.ToArray();
+            if (medico != null)
+            {
+                if (medico.idMedico != null)
+                {
+                    medico.servicio = serv_tb.Text;
+                    medico.especialidad = esp_tb.Text;
+                    medico.nombre = nmbre_tb.Text;
+                    medico.apellidos = ap_tb.Text;
+                    medico.telefono = telf_tb.Text;
+                    medico.dni = dni_tb.Text;
+                    d.Update(medico);
+                }
+            }
+            else {
+                medico.idMedico = id_tb.Text;
+                medico.servicio = serv_tb.Text;
+                medico.especialidad = esp_tb.Text;
+                medico.nombre = nmbre_tb.Text;
+                medico.apellidos = ap_tb.Text;
+                medico.telefono = telf_tb.Text;
+                medico.dni = dni_tb.Text;
+                d.Create(medico);
+            }
+                list.Add(medico);
+                dataGrid.ItemsSource = list.ToArray();
         }
 
         private void button_Copy1_Click(object sender, RoutedEventArgs e)
