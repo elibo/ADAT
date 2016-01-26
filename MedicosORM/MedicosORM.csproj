@@ -78,6 +78,7 @@
     <Compile Include="Historiales.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <Compile Include="History.cs" />
     <Compile Include="Horarios.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
@@ -100,6 +101,9 @@
     <Compile Include="WindowDoc.xaml.cs">
       <DependentUpon>WindowDoc.xaml</DependentUpon>
     </Compile>
+    <Compile Include="WindowHis.xaml.cs">
+      <DependentUpon>WindowHis.xaml</DependentUpon>
+    </Compile>
     <Compile Include="WindowUser.xaml.cs">
       <DependentUpon>WindowUser.xaml</DependentUpon>
     </Compile>
@@ -116,6 +120,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="WindowDoc.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WindowHis.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

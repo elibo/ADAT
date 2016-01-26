@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MedicosORM"
         mc:Ignorable="d"
-        Title="WindowUser" Height="481.531" Width="571.18">
+        Title="Usuarios" Height="481.531" Width="571.18">
     <Grid>
         <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Margin="10,315,0,0" VerticalAlignment="Top" Height="126" Width="543" SelectionChanged="dataGrid_SelectionChanged"/>
         <Label x:Name="label" Content="NSS" HorizontalAlignment="Left" Margin="53,95,0,0" VerticalAlignment="Top"/>
