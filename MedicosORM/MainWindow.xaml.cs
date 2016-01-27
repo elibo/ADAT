@@ -43,7 +43,8 @@ namespace MedicosORM
 
         private void button2_Click(object sender, RoutedEventArgs e)
         {//historiales
-            
+            WindowHis histowin = new WindowHis();
+            histowin.ShowDialog();
         }
     }
 }

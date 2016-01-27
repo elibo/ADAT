@@ -24,3 +24,5 @@ C:\Users\dam218\Documents\Visual Studio 2015\Projects\ACDA\MedicosORM\MedicosORM
 C:\Users\elibo\Desktop\DAM 2\ADAT\ADAT\MedicosORM\bin\Debug\MedicosORM.exe.config
 C:\Users\elibo\Desktop\DAM 2\ADAT\ADAT\MedicosORM\obj\Debug\MedicosORM.exe
 C:\Users\elibo\Desktop\DAM 2\ADAT\ADAT\MedicosORM\obj\Debug\MedicosORM.pdb
+C:\Users\dam218\Documents\Visual Studio 2015\Projects\ACDA\MedicosORM\MedicosORM\obj\Debug\WindowHis.g.cs
+C:\Users\dam218\Documents\Visual Studio 2015\Projects\ACDA\MedicosORM\MedicosORM\obj\Debug\WindowHis.baml

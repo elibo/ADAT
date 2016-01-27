@@ -17,8 +17,10 @@
         <Button x:Name="button" Content="Eliminar " HorizontalAlignment="Left" Margin="33,101,0,0" VerticalAlignment="Top" Width="94" Height="64" Click="button_Click"/>
         <Button x:Name="button1" Content="Guardar / Modificar" HorizontalAlignment="Left" Margin="33,179,0,0" VerticalAlignment="Top" Width="152" Height="66" Click="button1_Click"/>
         <Button x:Name="button2" Content="Nueva Historia" HorizontalAlignment="Left" Margin="33,25,0,0" VerticalAlignment="Top" Width="103" Height="60" Click="button2_Click"/>
-        <Label x:Name="label3" Content="Médico" HorizontalAlignment="Left" Margin="233,10,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="label4" Content="Usuario" HorizontalAlignment="Left" Margin="233,59,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label3" Content="Médico" HorizontalAlignment="Left" Margin="224,47,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label4" Content="Usuario" HorizontalAlignment="Left" Margin="494,47,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="279,51,0,0" VerticalAlignment="Top" Width="189" SelectionChanged="comboBox_SelectionChanged"/>
+        <ComboBox x:Name="comboBox1" HorizontalAlignment="Left" Margin="549,51,0,0" VerticalAlignment="Top" Width="189"/>
 
     </Grid>
 </Window>
