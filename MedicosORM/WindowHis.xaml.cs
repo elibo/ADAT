@@ -22,11 +22,15 @@ namespace MedicosORM
     {
         Doctor doc = new Doctor();
         Users u = new Users();
+        History his = new History();
         List<Medicos> listam;
         List<Usuarios> listau;
+        List<Historiales> historiales;
+        Historiales historial;
 
         public WindowHis()
         {
+            historiales=his.getAll();
             InitializeComponent();
             listam = doc.getAll();
             foreach (var doctor in listam)
@@ -42,22 +46,31 @@ namespace MedicosORM
 
         private void button2_Click(object sender, RoutedEventArgs e)
         {//nuevo historial
-
+            clear();
+            historial = new Historiales();
         }
 
         private void button_Click(object sender, RoutedEventArgs e)
         {//eliminar historial
-
+            his.Delete(historial);
         }
 
         private void button1_Click(object sender, RoutedEventArgs e)
         {// guardar o modificar
-
+            his.Update(historial);
+            his.Create(historial);
         }
 
         private void comboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
 
+        }
+        public void clear() {
+
+            sint_tb.Clear();
+            diag_tb.Clear();
+            trat_tb.Clear();
+            
         }
     }
 }

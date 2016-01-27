@@ -10,17 +10,19 @@
         <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Margin="33,259,0,0" VerticalAlignment="Top" Width="717" Height="162"/>
         <TextBox x:Name="sint_tb" HorizontalAlignment="Left" Height="84" Margin="233,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140"/>
         <Label x:Name="label" Content="Síntomas" HorizontalAlignment="Left" Margin="233,130,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="trat_tb" Content="Tratamiento" HorizontalAlignment="Left" Margin="596,130,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="84" Margin="413,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140"/>
-        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="84" Margin="596,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142"/>
-        <Label x:Name="diag_tb" Content="Diagnóstico" HorizontalAlignment="Left" Margin="413,130,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="trat_lb" Content="Tratamiento" HorizontalAlignment="Left" Margin="596,130,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="diag_tb" HorizontalAlignment="Left" Height="84" Margin="413,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140"/>
+        <TextBox x:Name="trat_tb" HorizontalAlignment="Left" Height="84" Margin="596,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142"/>
+        <Label x:Name="diag_lb" Content="Diagnóstico" HorizontalAlignment="Left" Margin="413,130,0,0" VerticalAlignment="Top"/>
         <Button x:Name="button" Content="Eliminar " HorizontalAlignment="Left" Margin="33,101,0,0" VerticalAlignment="Top" Width="94" Height="64" Click="button_Click"/>
         <Button x:Name="button1" Content="Guardar / Modificar" HorizontalAlignment="Left" Margin="33,179,0,0" VerticalAlignment="Top" Width="152" Height="66" Click="button1_Click"/>
         <Button x:Name="button2" Content="Nueva Historia" HorizontalAlignment="Left" Margin="33,25,0,0" VerticalAlignment="Top" Width="103" Height="60" Click="button2_Click"/>
-        <Label x:Name="label3" Content="Médico" HorizontalAlignment="Left" Margin="224,47,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="label4" Content="Usuario" HorizontalAlignment="Left" Margin="494,47,0,0" VerticalAlignment="Top"/>
-        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="279,51,0,0" VerticalAlignment="Top" Width="189" SelectionChanged="comboBox_SelectionChanged"/>
-        <ComboBox x:Name="comboBox1" HorizontalAlignment="Left" Margin="549,51,0,0" VerticalAlignment="Top" Width="189"/>
+        <Label x:Name="label3" Content="Médico" HorizontalAlignment="Left" Margin="224,21,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label4" Content="Usuario" HorizontalAlignment="Left" Margin="494,21,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="279,25,0,0" VerticalAlignment="Top" Width="189" SelectionChanged="comboBox_SelectionChanged"/>
+        <ComboBox x:Name="comboBox1" HorizontalAlignment="Left" Margin="549,25,0,0" VerticalAlignment="Top" Width="189"/>
+        <Label x:Name="label1" Content="Fecha" HorizontalAlignment="Left" Margin="344,85,0,0" VerticalAlignment="Top"/>
+        <DatePicker x:Name="date" HorizontalAlignment="Left" Margin="413,87,0,0" VerticalAlignment="Top" Width="118"/>
 
     </Grid>
 </Window>

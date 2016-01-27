@@ -26,3 +26,20 @@ C:\Users\elibo\Desktop\DAM 2\ADAT\ADAT\MedicosORM\obj\Debug\MedicosORM.exe
 C:\Users\elibo\Desktop\DAM 2\ADAT\ADAT\MedicosORM\obj\Debug\MedicosORM.pdb
 C:\Users\dam218\Documents\Visual Studio 2015\Projects\ACDA\MedicosORM\MedicosORM\obj\Debug\WindowHis.g.cs
 C:\Users\dam218\Documents\Visual Studio 2015\Projects\ACDA\MedicosORM\MedicosORM\obj\Debug\WindowHis.baml
+C:\Users\elibo\Desktop\ADAT\MedicosORM\bin\Debug\MedicosORM.exe.config
+C:\Users\elibo\Desktop\ADAT\MedicosORM\obj\Debug\MedicosORM.exe
+C:\Users\elibo\Desktop\ADAT\MedicosORM\obj\Debug\MedicosORM.pdb
+C:\Users\elibo\Desktop\ADAT\MedicosORM\obj\Debug\MedicosORM.csprojResolveAssemblyReference.cache
+C:\Users\elibo\Desktop\ADAT\MedicosORM\obj\Debug\MainWindow.g.cs
+C:\Users\elibo\Desktop\ADAT\MedicosORM\obj\Debug\WindowDoc.g.cs
+C:\Users\elibo\Desktop\ADAT\MedicosORM\obj\Debug\WindowHis.g.cs
+C:\Users\elibo\Desktop\ADAT\MedicosORM\obj\Debug\WindowUser.g.cs
+C:\Users\elibo\Desktop\ADAT\MedicosORM\obj\Debug\App.g.cs
+C:\Users\elibo\Desktop\ADAT\MedicosORM\obj\Debug\MedicosORM_Content.g.cs
+C:\Users\elibo\Desktop\ADAT\MedicosORM\obj\Debug\MedicosORM_MarkupCompile.cache
+C:\Users\elibo\Desktop\ADAT\MedicosORM\obj\Debug\MedicosORM_MarkupCompile.lref
+C:\Users\elibo\Desktop\ADAT\MedicosORM\obj\Debug\MainWindow.baml
+C:\Users\elibo\Desktop\ADAT\MedicosORM\obj\Debug\WindowDoc.baml
+C:\Users\elibo\Desktop\ADAT\MedicosORM\obj\Debug\WindowHis.baml
+C:\Users\elibo\Desktop\ADAT\MedicosORM\obj\Debug\WindowUser.baml
+C:\Users\elibo\Desktop\ADAT\MedicosORM\obj\Debug\MedicosORM.g.resources
