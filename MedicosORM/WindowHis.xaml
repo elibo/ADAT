@@ -21,8 +21,10 @@
         <Label x:Name="label4" Content="Usuario" HorizontalAlignment="Left" Margin="494,21,0,0" VerticalAlignment="Top"/>
         <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="279,25,0,0" VerticalAlignment="Top" Width="189" SelectionChanged="comboBox_SelectionChanged"/>
         <ComboBox x:Name="comboBox1" HorizontalAlignment="Left" Margin="549,25,0,0" VerticalAlignment="Top" Width="189"/>
-        <Label x:Name="label1" Content="Fecha" HorizontalAlignment="Left" Margin="344,85,0,0" VerticalAlignment="Top"/>
-        <DatePicker x:Name="date" HorizontalAlignment="Left" Margin="413,87,0,0" VerticalAlignment="Top" Width="118"/>
+        <Label x:Name="label1" Content="Fecha" HorizontalAlignment="Left" Margin="512,83,0,0" VerticalAlignment="Top"/>
+        <DatePicker x:Name="date" HorizontalAlignment="Left" Margin="569,86,0,0" VerticalAlignment="Top" Width="118"/>
+        <Label x:Name="label2" Content="ID" HorizontalAlignment="Left" Margin="252,85,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="id_tb" HorizontalAlignment="Left" Height="23" Margin="279,86,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
 
     </Grid>
 </Window>

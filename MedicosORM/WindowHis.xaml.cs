@@ -52,13 +52,42 @@ namespace MedicosORM
 
         private void button_Click(object sender, RoutedEventArgs e)
         {//eliminar historial
+            historial = historiales[dataGrid.SelectedIndex];
             his.Delete(historial);
+            clear();
+            historiales.Remove(historial);
+            dataGrid.ItemsSource = historiales.ToArray();
+            his.Delete(historial);
+
         }
 
         private void button1_Click(object sender, RoutedEventArgs e)
         {// guardar o modificar
-            his.Update(historial);
-            his.Create(historial);
+            if (historial != null)
+            {
+                if (historial.idHistoria != 0)
+                {
+                    historial.diagnostico = diag_tb.Text;
+                    historial.tratamiento = trat_tb.Text;
+                    historial.sintomas = sint_tb.Text;
+                    historial.fecha = date.SelectedDate;
+                    his.Update(historial);
+                }
+            }
+            else {
+                historial.idHistoria = Int32.Parse(id_tb.Text);
+                historial.medico = 
+                historial.usuario= comboBox.SelectedItem.ToString();
+                historial.diagnostico = diag_tb.Text;
+                historial.tratamiento = trat_tb.Text;
+                historial.sintomas = sint_tb.Text;
+                historial.fecha = date.SelectedDate;
+                his.Create(historial);
+            }
+            historiales.Add(historial);
+            dataGrid.ItemsSource = historiales.ToArray();
+            
+           
         }
 
         private void comboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
